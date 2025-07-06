@@ -26,18 +26,18 @@ import net.minecraft.entity.EntityPose
 import net.minecraft.item.Items
 
 /**
- * NoFall module
+ * SIGMA NOFALL :D
  *
- * Protects you from taking fall damage.
+ * Protects you from taking fall damage (LIKE A SIGMA).
  */
 object ModuleNoFall : ClientModule("NoFall", Category.PLAYER) {
     internal val modes = choices(
         "Mode", NoFallSpoofGround, arrayOf(
             NoFallSpoofGround,
-            NoFallNoGround,
-            NoFallPacket,
+            NoFallNoGroundIDONTTHINKTHISBYPASSESMUCHANYMORE,
+            NoFallPacketREALLYBLATANTBUTSIGMA,
             NoFallPacketJump,
-            NoFallMLG,
+            NoFallMLG MAKESLOOKLIKEGODCLUTCHER,
             NoFallRettungsplatform,
             NoFallSpartan524Flag,
             NoFallVulcan,
@@ -47,7 +47,7 @@ object ModuleNoFall : ClientModule("NoFall", Category.PLAYER) {
             NoFallCancel,
             NoFallBlink,
             NoFallHypixelPacket,
-            NoFallHypixel,
+            NoFallHypixelNotreccomendedmainaccountcheatng,
         )
     ).apply(::tagBy)
 
